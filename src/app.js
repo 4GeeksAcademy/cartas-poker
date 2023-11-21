@@ -20,6 +20,11 @@ window.onload = function() {
 
   elementPalos[0].innerHTML = palos[randomPalos];
   elementPalos[1].innerHTML = palos[randomPalos];
+  if (palos[randomPalos] === "♦" || palos[randomPalos] === "♥") {
+    document.querySelector("#palossuperior").classList.add("red");
+    document.querySelector("#palosinferior").classList.add("red");
+    document.querySelector("#numeros").classList.add("red");
+  }
 
   document.querySelector(".numeros").innerHTML = randomNumeros;
 };

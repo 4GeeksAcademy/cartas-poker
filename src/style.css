@@ -1,1 +1,19 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.fondo {
+  height: 900px;
+  background-color: green;
+}
+.numeros,
+.palos {
+  font-size: 4rem;
+}
+.card-header,
+.card-footer {
+  border: none;
+}
+.palosinferior {
+  transform: rotate(180deg);
+}
+.red {
+  color: red;
+}
